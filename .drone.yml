@@ -19,6 +19,7 @@ build:
       - make vet
       - make build
       - make test
+      - sed -i 's/FROM alpine/FROM armhfbuild\/alpine/' Dockerfile
     when:
       repo: armhf-drone-plugins/drone-anynines
 
