@@ -40,7 +40,6 @@ publish:
     password: $$DOCKER_PASSWORD
     email: $$DOCKER_EMAIL
     repo: armhfplugins/drone-anynines
-    storage_driver: overlay
     tag: latest
     when:
       repo: armhf-drone-plugins/drone-anynines
@@ -58,7 +57,6 @@ publish:
     password: $$DOCKER_PASSWORD
     email: $$DOCKER_EMAIL
     repo: armhfplugins/drone-anynines
-    storage_driver: overlay
     tag: develop
     when:
       repo: armhf-drone-plugins/drone-anynines
