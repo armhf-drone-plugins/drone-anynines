@@ -59,7 +59,7 @@ publish:
     email: $$DOCKER_EMAIL
     repo: armhfplugins/drone-anynines
     storage_driver: overlay
-    tag: latest
+    tag: develop
     when:
       repo: armhf-drone-plugins/drone-anynines
       branch: develop
